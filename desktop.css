@@ -1,0 +1,65 @@
+body {
+  border-top: 5px solid #e56038;
+  background: #ebe8de;
+  font-family: 'Open Sans', sans-serif;
+  color: #333333;
+}
+
+p {
+  margin: 5px 0;
+  line-height: 25px;
+  text-align: right;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: color .5s ease;
+}
+
+strong {
+  font-weight: bold;
+}
+
+header {
+  position:relative;
+  width:auto;
+  max-width:900px;
+  margin: 0 auto 20px auto;
+}
+
+header h1 {
+  margin: 35px 0 0 0;
+  font-size: 55px;
+  color: #e56038;
+  font-family: 'Ubuntu', cursive;
+  text-align: center;
+}
+
+header p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: #4A463B;
+  margin-left:132px;
+}
+
+nav ul {
+  list-style:none;
+}
+
+nav ul li {
+  display:block;
+  float:left;
+  padding:3px 15px;
+  margin: 0 7%;
+}
+
+nav ul li a {
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  transition: all .25s ease;
+}
+
+nav ul li a:hover {
+  color: #E56038;
+}
